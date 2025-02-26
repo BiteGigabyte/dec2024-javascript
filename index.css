@@ -1,0 +1,10 @@
+.alpha {
+    width: 60%;
+    height: 18vh;
+
+    background-color: forestgreen;
+    color: yellow;
+    font-size: 125%;
+
+    margin-top: 2%;
+}
