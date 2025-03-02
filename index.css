@@ -1,6 +1,16 @@
 * {
-    /*margin: 0;*/
+    box-sizing: border-box;
 }
+
+button {
+    min-height: 40px;
+}
+
+input {
+    min-height: 40px;
+
+}
+
 
 .hiddenBlock {
     display: none;
@@ -44,8 +54,9 @@ tr:hover {
 #clearStorage {
     margin-left: 15%;
     margin-top: 15px;
-    width: 70%;
-    height: 60px;
+    min-width: 70%;
+    min-height: 60px;
+    font-size: 125%;
 
     background-color: crimson;
     color: white;
