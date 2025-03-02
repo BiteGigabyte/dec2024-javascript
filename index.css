@@ -37,3 +37,16 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ddd; /* Підсвітка при наведенні */
 }
+
+
+
+
+#clearStorage {
+    margin-left: 15%;
+    margin-top: 15px;
+    width: 70%;
+    height: 60px;
+
+    background-color: crimson;
+    color: white;
+}

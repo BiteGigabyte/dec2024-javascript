@@ -230,6 +230,10 @@
             p.innerText = JSON.stringify(users[i]);
             task10Box.appendChild(p);
         }
+        //Зробив ще виведення номеру сторінки
+        //
+        let pageNumberBlock = document.getElementById('task10PageSpan');
+        pageNumberBlock.innerText = `${(firstElementNumber + 10) / 10}/${users.length / 10}`;
     }
     usersDisplay();
     //
@@ -242,8 +246,19 @@
     }
     nextButton.onclick = function () {
         firstElementNumber += 10;
-        if (firstElementNumber > users.length) {
+        if (firstElementNumber > users.length - 1) {
             firstElementNumber = 0;
         }
         usersDisplay();
+    }
+    console.log('Task 10: #NKB0tgWIK1G');
+    console.log(users);
+    //
+    //
+
+    // Зробив кнопку очистки сховища localStorage.
+    let clearStorageButton = document.getElementById('clearStorage');
+    //
+    clearStorageButton.onclick = function () {
+        localStorage.clear();
     }
