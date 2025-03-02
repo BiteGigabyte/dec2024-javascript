@@ -4,6 +4,12 @@
 
 button {
     min-height: 40px;
+
+    box-shadow: none;
+}
+
+button:hover {
+    background-color: forestgreen;
 }
 
 input {
@@ -60,4 +66,8 @@ tr:hover {
 
     background-color: crimson;
     color: white;
+}
+
+#clearStorage:hover {
+    background-color: forestgreen;
 }

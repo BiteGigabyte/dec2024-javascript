@@ -262,3 +262,16 @@
     clearStorageButton.onclick = function () {
         localStorage.clear();
     }
+
+
+    //тимчасовий колір підтвердження коли клікнув на кнопку.
+    let buttons = document.getElementsByTagName('button');
+    for (const button of buttons) {
+        button.addEventListener('click', function () {
+            button.style.backgroundColor = 'limegreen';
+            setTimeout(() => {
+                button.style.backgroundColor = ''; // повертає стандартний колір
+            }, 1000);
+        }
+        )
+    }
