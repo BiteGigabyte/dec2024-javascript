@@ -181,7 +181,7 @@
 //     При перезавантаженні, яке відбулось раніше ніж минуло 10 секунд - нічого не відбувається
 //
     // 'Task 9: #bq1zkx7WP'
-    console.log('Task9: #bq1zkx7WP');
+    console.log('Task 9: #bq1zkx7WP');
 
 //
 // #NKB0tgWIK1G
