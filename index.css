@@ -1,0 +1,42 @@
+.border {
+    border: 2px solid black;
+}
+
+.margin-bottom {
+    margin-bottom: 5px;
+}
+
+button {
+    width: 40vw;
+    height: 10vh;
+}
+
+
+.cartProductsBlock {
+    display: flex;
+
+    overflow: auto;
+}
+
+
+
+
+.task2-h2 {
+    margin-top: 15vh;
+}
+
+#task2-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-width {
+    width: 82vw;
+}
+
+.recipeBlock {
+    border: 2px solid darkslategrey;
+    margin-bottom: 5vh;
+}
+
